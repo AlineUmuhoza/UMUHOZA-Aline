@@ -1,0 +1,102 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta nmae="Viewport" content="width=device-width, initial-scale=1"
+<title>Form</title>
+</head>
+<body>
+	<style>
+	body{ background-color: pink;
+	color: blue;
+	font:normal 16px;
+	margin: 20px
+	}
+</style>
+<p>
+    	<center>
+    	<ul style="list-style-type: none;  padding: 0;">
+        <li style="display: inline;  margin-right: 10px"><a href="./home.html" 
+
+        	style="padding: 10px;color: white;background-color: red;text-decoration: none;margin-right: 15px;">HOME</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./about.html" 
+
+        	style="padding: 10px;color: white;background-color: red;text-decoration: none;margin-right: 15px;">ABOUT</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./contact.html" 
+        	style="padding: 10px;color: white;background-color: red;text-decoration: none;margin-right: 15px;">CONTACT</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./service.html" 
+        	style="padding: 10px;color: white;background-color: red;text-decoration: none;margin-right: 15px;">SERVICES</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./form.html" 
+        	style="padding: 10px;color: white;background-color: red;text-decoration: none;margin-right: 15px;">FORM</a></li>
+        
+        <li style="display: inline;  margin-right: 10px"><a href="./table.html" 
+            style="padding: 10px;color: white;background-color: red;text-decoration: none;margin-right: 15px;">TABLE</a></li>
+        
+        <li style="display: inline;  margin-right: 10px"><a href="./mybook.html" 
+        	style="padding: 10px;color: white;background-color: red;text-decoration: none;margin-right: 15px;">MYBOOK</a></li>
+    </ul></center>
+	</p><ul>
+<h1>Customer Form </h1>
+<form action="#: method="POST">
+
+ <label for="id"><b>ID:</b></label>
+ <input type="number" name="id" id="id" required><br><br>	
+
+<label for=fname> First name </label> 
+<input type="text" name="fname" id="fname" required> 
+
+<br><br>
+
+<label for=lname> Last name </label>
+<input type="text"name="lname" id="lname" required> 
+
+<br><br>
+
+<label for="date"><b>Date Of Birth:</b></label>
+<input type="date" name="date" id="date" required><br><br>
+
+
+<label for="age"><b>Age:</b></label>
+<input type="number" name="age" id="age" required><br><br>
+
+<label> <b>Martial Status:</b></label>
+<input type="radio" name="mrtst" value="dvrc" checked>Divorced
+<input type="radio" name="mrtst" value="sngl" checked>Single<br>
+<input type="radio" name="mrtst" value="engd" checked>Engaged
+<input type="radio" name="mrtst" value="mrd" checked>Married<br><br>
+
+<label for="eml"><b>Email:</b></label>
+<input type="email" name="em" id="em" required><br><br>
+
+
+
+<label>Gender</label>
+<input type="radio" name="gender" values"male" checked>Male
+<input type="radio" name="gender" values"female" checked>female<br> 
+
+<br><br>
+
+
+<label for=adrs> Adrress </label><input type="text"
+name="adrs" id="adrs" required> 
+
+<br><br>
+
+<label for=dptm> Service </label>
+<select><option>Luxury Sedans Cars</option>
+	    <option>Sports Cars</option>
+	    <option>Hybrid and Electric Vehicles</option>
+</select>	    
+
+<br><br>
+
+<input type= "submit" name="submit" value="submit">
+
+<br><br>
+<input type="reset" name="cnl" value="CANCEL">
+<br><br>
+
+
+</fomr>
+</body>
+</html>
